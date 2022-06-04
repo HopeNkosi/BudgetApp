@@ -83,7 +83,7 @@ namespace BudgetApp
             double MonthlyPayments = HirePurchase() / numMonths;
             return MonthlyPayments;
         }
-
+        //Method to calcuculate total monthly cost with insurance premium
         public double CalculateTotalMonthlyCost()
         {
             double total;
